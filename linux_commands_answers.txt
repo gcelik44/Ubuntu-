@@ -1,0 +1,47 @@
+Linux Uygulama Soruları ve Cevapları
+
+1. Paket yöneticisi (apt) hakkında bilgiyi görüntülemek için kullanılan komut:
+   man apt
+   veya
+   apt --help
+
+2. "grep" komutuna ilişkin detaylı bilgileri görüntülemek için kullanılan komut:
+   man grep
+   veya
+   grep --help
+
+3. Linux işletim sisteminin dağıtım bilgisini görüntülemek için kullanılan komutlar:
+   cat /etc/os-release
+   veya
+   lsb_release -a
+
+4. Kernel versiyonunu ve ağ içinde kullanılan host adını görüntülemek için kullanılan komutlar:
+   Kernel versiyonu için:
+   uname -r
+   Host adı için:
+   hostname
+
+5. İşletim sisteminin hangi kimlikle çalıştığını ve en son ne zaman açıldığını gösteren komutlar:
+   Kullanıcı kimliği için:
+   whoami
+   Sistemin en son açılma zamanı için:
+   last reboot
+
+6. Disk kullanımını dosya bilgisiyle birlikte görüntülemek için kullanılan komut:
+   du -ah
+
+7. Bellek ve Swap alanını görüntülemek için kullanılan komut:
+   free -h
+
+8. Komut bloğunun çıktısı:
+   /usr/local
+   (cd ../../local komutu /usr/local/bin dizininden iki seviye yukarı çıkar ve sonra local klasörüne girer, bu da /usr/local olur.)
+
+9. Sistemde sadece 'b' ile başlayan gizli dosyaları görüntülemek için kullanılan komut:
+   ls -ld .b*
+
+10. Sistemdeki dosyaları büyüklüğüne ve değişiklik tarihine göre sıralayan komutlar:
+   Büyüklüğüne göre sıralamak için:
+   ls -lS
+   Değişiklik tarihine göre sıralamak için:
+   ls -lt
